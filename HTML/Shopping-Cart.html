@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icons/6.14.0/flag-icons.min.css">
+    <link rel="stylesheet" href="../CSS/Style-index.css">
+    <link rel="stylesheet" href="../CSS/cart.css">
+</head>
+
+<body>
+    <div class="header">
+        <div id="logo-container"></div>
+        <div id="menu-container"></div>
+        <div class="infor" id="infor-container"></div>
+    </div>
+    <div class="container-cart">
+        <div class="my-cart">
+            <h1>Welcome to cart</h1>
+        </div>
+        <div class="back">
+            <a href="Product.html">
+                <button class="back-btn"><i class="fa-solid fa-arrow-left"></i>ទំព័រដើម</button>
+            </a>
+        </div>
+        <h2 class="titl">Your Cart</h2>
+        <div class="main-contan">
+            <div class="box">
+                <div class="image">
+                    <img src="../image/1.JPG" alt="">
+                </div>
+                <div class="data">
+                    <h2>ម្សៅស្លឹកម្រុំ</h2>
+                    <!-- <p>ម្សៅគ្រាប់ម្រុំធម្មជាតិ សម្បូរ​ទៅដោយវីតាមីន</p> -->
+                    <h1><span>-</span> 1 <span>+</span></h1>
+                    <div class="price-section">
+                        <div class="price-item">
+                            <div class="price-label">Unit Price</div>
+                            <div class="price-value">$ 5.00</div>
+                        </div>
+                        <div class="price-item">
+                            <div class="price-label">Subtotal</div>
+                            <div class="price-value">$ 5.00</div>
+                        </div>
+                    </div>
+                </div>
+                <button class="remove-btn">Remove</button>
+            </div>
+        </div>
+
+        <!-- Cart Summary -->
+        <div class="cart-summary">
+            <div class="summary-item">
+                <span class="summary-label">Subtotal</span>
+                <span class="summary-value">$ 5.00</span>
+            </div>
+            <div class="summary-item">
+                <span class="summary-label">Shipping</span>
+                <span class="summary-value">$ 0.00</span>
+            </div>
+            <div class="summary-item">
+                <span class="summary-label">Tax</span>
+                <span class="summary-value">$ 0.00</span>
+            </div>
+            <div class="summary-item">
+                <span class="summary-label">Total</span>
+                <span class="summary-value">$ 5.00</span>
+            </div>
+            <button class="checkout-btn">Proceed to Checkout</button>
+        </div>
+    </div>
+</body>
+<script src="../JS/bar.js"></script>
+<script src="../JS/cart.js"></script>
+
+</html>

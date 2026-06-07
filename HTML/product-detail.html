@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Detail</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icons/6.14.0/flag-icons.min.css">
+    <link rel="stylesheet" href="../CSS/Style-index.css">
+    <link rel="stylesheet" href="../CSS/product-detail.css">
+</head>
+<style>
+    .title {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 50px 0;
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .title::before,
+    .title::after {
+        content: "";
+        flex: 1;
+        border-top: 2px solid #0a5b8c;
+    }
+
+    .title span {
+        padding: 0 20px;
+        color: #111;
+    }
+</style>
+
+<body>
+    <div class="header">
+        <div id="logo-container"></div>
+        <div id="menu-container"></div>
+        <div class="infor" id="infor-container"></div>
+    </div>
+    <div class="main">
+        <a href="Product.html">
+            <button class="back-btn"><i class="fa-solid fa-arrow-left"></i>ទំព័រដើម</button>
+        </a>
+    </div>
+    <div class="body">
+        <div class="card">
+            <div class="top-section">
+                <div class="image-box">
+                    <img src="../image/1.JPG" alt="Headphones">
+                </div>
+                <div class="info">
+                    <h2>ម្សៅស្លឹកម្រុំ</h2>
+                    <div class="rating">
+                        ⭐⭐⭐⭐⭐ <span>( 5 )</span>
+                    </div>
+                    <hr>
+                    <div class="title1">
+                        <p>ម្សៅគ្រាប់ម្រុំធម្មជាតិ
+                            សម្បូរ​ទៅដោយវីតាមីន
+                            ល្អបំផុតសម្រាប់សុខភាព​
+                            មិនមានសារធាតុរក្សាទុក</p>
+                    </div>
+                    <div class="price">
+                        <h1>$ 5</h1>
+                    </div>
+                    <h4>In Stock</h4>
+                    <div class="thumbs">
+                        <button>25 ML</button>
+                        <button>15 ML</button>
+                    </div>
+                    <button class="cart-btn">
+                        🛒 Add to Cart
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="title">
+        <span>Detail about Product</span>
+    </div>
+</body>
+<script src="../JS/bar.js"></script>
+<script src="../JS/products.js"></script>
+<script src="../JS/product-detail.js"></script>
+
+</html>
